@@ -100,7 +100,7 @@ A program which uses data from movies and databases, including user ratings -- a
 * A *size* method that returns the number of movies in the database. 
 * A *filterBy* method that has one Filter parameter named f. This method returns an ArrayList of type String of movie IDs that match the filtering criteria:
 *> The interface Filter has only one signature for the method satisfies. Any filters that implement this interface must also have this method. The method satisfies has one String parameter named id representing a movie ID. This method returns true if the movie satisfies the criteria in the method and returns false otherwise.
-*> The class <b>TrueFilterM/b> can be used to select every movie from MovieDatabase. It’s satisfies method always returns true.
+*> The class <b>TrueFilter</b> can be used to select every movie from MovieDatabase. It’s satisfies method always returns true.
 *> The class <b>YearsAfterFilter</b> is a filter for a specified year; it selects only those movies that were created on that year or created later than that year. If the year is 2000, then all movies created in the year 2000 and the years after (2001, 2002, 2003, etc) would be selected if used with MovieDatabase.filterBy.
 *> The class <b>AllFilters</b> combines several filters. This class has the following:
 *> - A private variable named filters that is an ArrayList of type Filter.
