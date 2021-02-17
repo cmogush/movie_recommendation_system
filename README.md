@@ -1,6 +1,8 @@
 # movie_recommendation_system
 A program which uses data from movies and databases, including user ratings -- and can answer questions about the data, including which items should be recommended to a user based on their ratings of several movies.
 
+To execute the program, upload the 'Final.zip' file to https://www.dukelearntoprogram.com//capstone/upload.php
+
 ## Classes
 
 <b>Movie</b> - a Plain Old Java Object (POJO) class for storing the data about one movie. It includes the following:
@@ -184,3 +186,4 @@ ratings.csv - has a header first followed by one line for each rating.
 * https://www.coursera.org/learn/java-programming-recommender/supplement/KTrOQ/programming-exercise-step-two
 * https://www.coursera.org/learn/java-programming-recommender/supplement/E9Xy0/programming-exercise-step-three
 * https://www.coursera.org/learn/java-programming-recommender/supplement/433EU/programming-exercise-step-four
+* https://www.coursera.org/learn/java-programming-recommender/peer/uOSDs/step-five
